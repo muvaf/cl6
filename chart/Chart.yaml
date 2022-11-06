@@ -1,0 +1,6 @@
+apiVersion: v2
+name: cl6-chart
+description: A Helm chart for cl6 owned by muvaf
+type: application
+version: 0.1.0
+appVersion: "1.16.0"

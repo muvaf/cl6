@@ -1,0 +1,8 @@
+apiVersion: kubecon.org/v1alpha1
+kind: Bucket
+metadata:
+  name: photos
+spec:
+  location: us
+  writeConnectionSecretToRef:
+    name: bucket-creds
